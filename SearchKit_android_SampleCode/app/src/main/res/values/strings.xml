@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SearchKitCodeLab</string>
+
+    <string name="fragment_web">Web</string>
+    <string name="fragment_image">Image</string>
+    <string name="fragment_video">Video</string>
+    <string name="fragment_news">News</string>
+    <string name="hello_blank_fragment">aaa</string>
+
+    <string name="get_title_error">Default Title(Network error!)</string>
+</resources>

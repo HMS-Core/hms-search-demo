@@ -1,0 +1,2 @@
+rootProject.name='SearchKit_CodeLab'
+include ':app'

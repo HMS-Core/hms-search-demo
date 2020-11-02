@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SearchActivity">
+
+    <RelativeLayout
+        android:id="@+id/searchview_layout"
+        android:layout_height="36dp"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape_search_text"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical|start"
+            android:hint="Search"
+            android:imeOptions="actionSearch"
+            android:paddingStart="42dp"
+            android:paddingEnd="40dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxEms="13"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textColorHint="#61000000"
+            android:textCursorDrawable="@drawable/selectedittextshape"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/search_src_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="3dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:padding="10dp"
+            android:src="@drawable/ic_public_search" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/suggest_list"
+        android:visibility="gone"
+        android:layout_below="@+id/searchview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/linear_spell_check"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/searchview_layout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spellCheck:"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_spell_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_spell_check"
+        android:background="#e2e2e2"/>
+
+    <LinearLayout
+        android:id="@+id/linear_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/v_line"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:tabIndicatorColor="#1DA1F3"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorHeight="2dp"
+            app:tabMode="scrollable"
+            app:tabRippleColor="#0D000000"
+            app:tabSelectedTextColor="#1DA1F3">
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/content_list"
+        android:visibility="gone"
+        android:layout_below="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
