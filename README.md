@@ -14,8 +14,8 @@
 HMS Search Kit sample code encapsulates APIs of the HUAWEI Search Kit. It provides a sample programs for your reference or usage.
 
 ## Installation
-Before using BD_SearchKitCodeLab sample code, check whether the BD_SearchKitCodeLab environment has been installed. 
-Decompress the BD_SearchKitCodeLab sample code package.
+Before using HMS Search Kit sample code, check whether the BD_SearchKitCodeLab environment has been installed. 
+Decompress the HMS Search Kit sample code package.
     
 Refresh the project and ensure that is successfully.
     
