@@ -59,7 +59,14 @@
 	7). Spell check.
     Code location: searchindex/SearchActivity.java
 
+
+## Result
+![](image/main.png)
+![](image/suggest.png)
+![](image/result.png)
+
 ##  License
     BD_SearchKitCodeLab sample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
 
 
