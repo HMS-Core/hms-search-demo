@@ -1,4 +1,4 @@
-## HMS Search Kit Demo
+# HMS Search Kit Demo
 
 ## Table of Contents
 
@@ -37,26 +37,26 @@ Android studio.
 	
 ## Sample Code
 
-1). Web search.
-Code location: searchindex/SearchActivity.java
+1. Web search.
+Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
     
-2). Image search.
-Code location: searchindex/SearchActivity.java
+2. Image search.
+Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
     
-3). Video search.
-Code location: searchindex/SearchActivity.java
+3. Video search.
+Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
     
-4). News search.
-Code location: searchindex/SearchActivity.java
+4. News search.
+Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
     
-5). Custom search.
-Code location: searchindex/SearchActivity.java
+5. Custom search.
+Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
 	
-6). Suggest.
-Code location: searchindex/SearchActivity.java
+6. Suggest.
+Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
 	
-7). Spell check.
-Code location: searchindex/SearchActivity.java
+7. Spell check.
+Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
 
 
 ## Result
