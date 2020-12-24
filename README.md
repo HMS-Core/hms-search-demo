@@ -60,9 +60,21 @@ Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms
 
 
 ## Result
-![](image/main.png)
-![](image/suggest.png)
-![](image/result.png)
+**web search**
+
+<img src="https://github.com/HMS-Core/hms-search-demo/blob/main/image/web-search.gif" width=280>
+
+**image search**
+
+<img src="https://github.com/HMS-Core/hms-search-demo/blob/main/image/image-search.gif" width=280>
+
+**video search**
+
+<img src="https://github.com/HMS-Core/hms-search-demo/blob/main/image/video-search.gif" width=280>
+
+**news search**
+
+<img src="https://github.com/HMS-Core/hms-search-demo/blob/main/image/news-search.gif" width=280>
 
 ##  License
 HMS Search Kit sample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
