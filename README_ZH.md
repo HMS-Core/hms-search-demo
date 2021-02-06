@@ -1,5 +1,7 @@
 # 华为搜索服务示例代码
 
+中文 | [English](https://github.com/HMS-Core/hms-search-demo/blob/main/README.md)
+
 ## 目录
 
  * [简介](#简介)
