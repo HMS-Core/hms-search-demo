@@ -1,5 +1,7 @@
 # HMS Search Kit Demo
 
+English | [中文](https://github.com/HMS-Core/hms-search-demo/blob/main/README_ZH.md)
+
 ## Table of Contents
 
  * [Introduction](#introduction)
