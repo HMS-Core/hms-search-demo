@@ -4,8 +4,8 @@
 
  * [Introduction](#introduction)
  * [Installation](#installation)
- * [Configuration ](#configuration )
  * [Supported Environments](#supported-environments)
+ * [Configuration ](#configuration)
  * [Sample Code](#sample-code)
  * [License](#license)
  
@@ -20,7 +20,7 @@ Decompress the HMS Search Kit sample code package.
 Refresh the project and ensure that is successfully.
     
 ## Supported Environments
-searchkit 5.0.4.300 or a later version is recommended.
+searchkit 5.0.4.305 or a later version is recommended.
 The Android SDK is available only on a mobile device running Android API-Level 24 (Android 7.0 Marshmallow) or higher.
 Android studio.
 	
