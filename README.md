@@ -32,7 +32,7 @@ Android studio.
 5. Download the agconnect-services.json file and place it to the app's root directory of the project.
 6. Add the Maven repository address maven {url 'https://developer.huawei.com/repo/'} and plug-in class path 'com.huawei.agconnect:agcp:1.3.1.300' to the project-level build.gradle file.
 7. Add apply plugin: 'com.huawei.agconnect' to the last line of the app-level build.gradle file.
-8. Configure the dependency com.huawei.hms:searchkit:5.0.4.300 in the app-level buildle.gradle file.
+8. Configure the dependency com.huawei.hms:searchkit:5.0.4.305 in the app-level buildle.gradle file.
 9. Synchronize the project.
 	
 ## Sample Code
