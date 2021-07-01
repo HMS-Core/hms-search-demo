@@ -1,6 +1,6 @@
 # HMS Search Kit Demo
 
-English | [中文](https://github.com/HMS-Core/hms-search-demo/blob/main/README_ZH.md)
+English | [中文](README_ZH.md)
 
 ## Table of Contents
 
@@ -10,8 +10,8 @@ English | [中文](https://github.com/HMS-Core/hms-search-demo/blob/main/README_
  * [Configuration ](#configuration)
  * [Sample Code](#sample-code)
  * [License](#license)
- 
- 
+
+
 ## Introduction
 HMS Search Kit sample code encapsulates APIs of the HUAWEI Search Kit. It provides a sample programs for your reference or usage.
 
@@ -41,16 +41,16 @@ Android studio.
 
 1. Web search.
 Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
-    
+  
 2. Image search.
 Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
-    
+  
 3. Video search.
 Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
-    
+  
 4. News search.
 Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
-    
+  
 5. Custom search.
 Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms-search-demo/blob/main/SearchKit_android_SampleCode/app/src/main/java/com/huawei/searchindex/activity/SearchActivity.java)
 	
@@ -77,6 +77,10 @@ Code location: [searchindex/SearchActivity.java](https://github.com/HMS-Core/hms
 **news search**
 
 <img src="https://github.com/HMS-Core/hms-search-demo/blob/main/image/news-search.gif" width=280>
+
+**custom search**
+
+<img src="https://github.com/HMS-Core/hms-search-demo/blob/main/image/custom-search.gif" width=280>
 
 ##  License
 HMS Search Kit sample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).

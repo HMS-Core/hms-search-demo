@@ -1,6 +1,6 @@
 # 华为搜索服务示例代码
 
-中文 | [English](https://github.com/HMS-Core/hms-search-demo/blob/main/README.md)
+中文 | [English](README.md)
 
 ## 目录
 
@@ -69,6 +69,10 @@ Android studio.
 **新闻搜索**
 
 <img src="https://github.com/HMS-Core/hms-search-demo/blob/main/image/news-search.gif" width=280>
+
+**个性化搜索**
+
+<img src="https://github.com/HMS-Core/hms-search-demo/blob/main/image/custom-search.gif" width=280>
 
 ##  授权许可
 华为搜索服务示例代码经过[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)授权许可.
